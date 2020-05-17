@@ -1,0 +1,29 @@
+.background_color{
+  --background:linear-gradient(#00bfff, #ccf2ff);
+}
+
+
+ion-card{
+  width: 41%;
+  margin: 2 px;
+}
+
+ion-card-content {
+  --background: white;
+}
+
+.flex{
+  display:flex;
+  flex-wrap: wrap;
+  //height: 100%;
+  //align-items: center;
+}
+
+ion-title{
+  margin: 2px;
+}
+
+ion-header img{
+  height: 60px;
+  margin-left: 110px;
+}
