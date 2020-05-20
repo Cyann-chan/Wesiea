@@ -1,47 +1,51 @@
 <ion-header translucent>
   <ion-toolbar>
     <ion-buttons slot="start">
-    <ion-back-button text="Retour"></ion-back-button>
-  </ion-buttons>
+      <ion-back-button></ion-back-button>
+    </ion-buttons>
     <ion-title>BDE Madness</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <style>
-    :root {
-      --ion-safe-area-top: 20px;
-      --ion-safe-area-bottom: 22px;
-    }
-  </style>
+  :root {
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 22px;
+  }
+</style>
 
-<ion-content>
+<ion-content fullscreen>
 
 
-  <ion-card class="welcome-card" style="background-color: white;">
+  <ion-card>
     <ion-card-header>
-      <ion-card-subtitle><i>L'association qui fera vibrer ton année!</i></ion-card-subtitle>
       <ion-card-title>Présentation</ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      <ion-img class="logo" src="../../assets/BDE Madness.jpeg"></ion-img>
+        <ion-img class="fich-asso-logo" src="../../assets/BDE Madness.jpeg"></ion-img>
+      <ion-card-subtitle><i>L'association qui fera vibrer ton année!</i></ion-card-subtitle><br />
       <p>Le BDE est l'association qui a pour but d'animer la vie étudiante à travers des activités variées mais aussi de s'occuper de l'intégration des nouveaux étudiants, en pariculier avec ses WEI mémorables!
-      Durant toute l'année, le BDE vous proposera de nombreux évènements, comme la Soirée des Parrains, une soirée qui vous permettra de peut-être trouver un parrain ou une marraine qui vous accompagnera durant
-    vos années d'études à l'ESIEA!</p>
-    </ion-card-content>
-  </ion-card>
+        Durant toute l'année, le BDE vous proposera de nombreux évènements, comme la Soirée des Parrains, une soirée qui vous permettra de peut-être trouver un parrain ou une marraine qui vous accompagnera durant
+        vos années d'études à l'ESIEA!</p>
+      </ion-card-content>
+    </ion-card>
 
-  <ion-list lines>
-    <ion-list-header>
-      <ion-label>Réseaux</ion-label>
-    </ion-list-header>
-    <ion-item href="https://www.facebook.com/BDE.ESIEA.Paris">
-      <ion-icon slot="start" color="black" name="logo-facebook"></ion-icon>
-      <ion-label>Facebook BDE</ion-label>
-    </ion-item>
-    <ion-item href="https://www.instagram.com/bde__esiea__paris/">
-      <ion-icon slot="start" color="black" name="logo-instagram"></ion-icon>
-      <ion-label>Instagram BDE</ion-label>
-    </ion-item>
-  </ion-list>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Réseaux</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-list lines>
+          <ion-item href="https://www.facebook.com/BDE.ESIEA.Paris">
+            <ion-icon slot="start" color="black" name="logo-facebook"></ion-icon>
+            <ion-label>Facebook BDE</ion-label>
+          </ion-item>
+          <ion-item href="https://www.instagram.com/bde__esiea__paris/">
+            <ion-icon slot="start" color="black" name="logo-instagram"></ion-icon>
+            <ion-label>Instagram BDE</ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-card-content>
+    </ion-card>
 
-</ion-content>
+  </ion-content>
